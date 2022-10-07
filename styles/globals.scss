@@ -24,3 +24,14 @@ a {
     background: black;
   }
 }
+
+$theme-colors: (
+    "light":      #eccad0,
+    "dark":       #020105,
+    "primary":    #453665,
+    "secondary":  #3e6f8b,
+    "info":       #5ea882,
+    "success":    #2f9d65,
+    "warning":    #ddcb31,
+    "danger":     #e72e1a,
+);

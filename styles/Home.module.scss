@@ -1,3 +1,6 @@
+$color-primary: rgb(159, 133, 183);
+
+
 .container {
   padding: 0 2rem;
 }
@@ -28,10 +31,10 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
+// .title a {
+//   color: #0070f3;
+//   text-decoration: none;
+// }
 
 .title a:hover,
 .title a:focus,
@@ -40,10 +43,24 @@
 }
 
 .title {
+  color: $color-primary;
+  border-bottom: solid 2px darken($color-primary, 10);
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+
+  
 }
+.title a {
+  color: #69162f;
+  text-decoration: none;
+  font-size: 1rem;
+}
+ .mylink {
+  color: #69162f;
+  text-decoration: none;
+  font-size: 2rem;
+ }
 
 .title,
 .description {
